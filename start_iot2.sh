@@ -1,0 +1,2 @@
+gnome-terminal -t 'run_ldr2' -- bash -c "ssh -t pi@IP 'echo login; /usr/bin/python3 /home/pi/Iot_retailer5.py'"
+gnome-terminal -t 'run_mqtt_camera2' -- bash -c "cd /home/aucsie01/webcam; python3 /home/aucsie01/webcam/webcam_retailer5.py; exec bash"
